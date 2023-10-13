@@ -8,7 +8,6 @@
     <meta name="author" content="Yuri Rokhlin">
     <meta name="keywords" content="coffee shop, coffee, cafe, triple peaks">
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -136,10 +135,160 @@
               </label>
             </form>
           </section>
-          <section id="menu" class="menu"></section>
-          <section id="about" class="about"></section>
+          <section id="menu" class="menu">
+            <h2 class="menu__title">Menu</h2>
+            <p class="menu__subtitle">
+              We brew coffee from locally roasted, Fairtrade certified beans 
+              and use biodegradable cups. All teas from our collection are $2/cup.
+            </p>
+            <div class="menu__cards">
+              <div class="card">
+                <h3 class="card__title">Filter</h3>
+                <ul class="card__list">
+                  <li class="card__list-item">
+                    Regular (12 oz)
+                    <span class="card__list-divider"></span>
+                    $1
+                  </li>
+                  <li class="card__list-item">
+                    Large (16 oz)
+                    <span class="card__list-divider"></span>
+                    $1.25
+                  </li>
+                  <li class="card__list-item">
+                    XL (20 oz)
+                    <span class="card__list-divider"></span>
+                    $1.5
+                  </li>
+                  <li class="card__list-item">
+                    Party-size (24 oz, decaf)
+                    <span class="card__list-divider"></span>
+                    $1.75
+                  </li>
+                  <li class="card__list-item">
+                    Iced Coffee (16 oz)
+                    <span class="card__list-divider"></span>
+                    $1.25
+                  </li>
+                </ul>
+              </div>
+              <div class="card">
+                <h3 class="card__title">Espresso</h3>
+                <ul class="card__list">
+                  <li class="card__list-item">
+                    Macchiato
+                    <span class="card__list-divider"></span>
+                    $2.25
+                  </li>
+                  <li class="card__list-item">
+                    Cortado
+                    <span class="card__list-divider"></span>
+                    $2.5
+                  </li>
+                  <li class="card__list-item">
+                    Mocha
+                    <span class="card__list-divider"></span>
+                    $3
+                  </li>
+                  <li class="card__list-item">
+                    Sunrise in the Bay Area (decaf)
+                    <span class="card__list-divider"></span>
+                    $10
+                  </li>
+                </ul>
+              </div>
+              <div class="card">
+                <h3 class="card__title">Baked Goods</h3>
+                <ul class="card__list">
+                  <li class="card__list-item">
+                    Almond Croissant
+                    <span class="card__list-divider"></span>
+                    $2
+                  </li>
+                  <li class="card__list-item">
+                    Banana Bread
+                    <span class="card__list-divider"></span>
+                    $1.75
+                  </li>
+                  <li class="card__list-item">
+                    Key Lime Pie
+                    <span class="card__list-divider"></span>
+                    $3
+                  </li>
+                  <li class="card__list-item">
+                    Blue Velvet Cake
+                    <span class="card__list-divider"></span>
+                    $3.75
+                  </li>
+                  <li class="card__list-item">
+                    Web Cookie
+                    <span class="card__list-divider"></span>
+                    $2
+                  </li>
+                  <li class="card__list-item">
+                    French Bug’uette
+                    <span class="card__list-divider"></span>
+                    $0.25
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section id="about" class="about">
+            <h2 class="about__title">About the coffee shop</h2>
+            <div class="about__content">
+              <p class="about__paragraph">
+                Our coffee shop is located in the Triple Peaks Library. 
+                It features 6 tables and free WiFi.
+              </p>
+              <p class="about__paragraph">
+                Our main mission is keeping guests cozy and energized.
+              </p>
+              <p class="about__paragraph">
+                Besides that, we try to reduce our environmental impact — 
+                so we don't sell single-use cups. But you can buy one of 
+                our reusable cups!
+              </p>
+            </div>
+            <div class="about__circle"></div>
+            <div class="about__circle about__circle_animation_blurred"></div>
+          </section>
         </main>
-        <footer class="footer"></footer>
+        <footer class="footer">
+          <div class="footer__content">
+            <img 
+              class="footer__logo"
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Triple Espresso logo"
+            >
+            <div class="footer__socials">
+              <h3 class="footer__social-heading">Social media</h3>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <img class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="Facebook logo"
+                  >
+                  <a class="footer__social-link"
+                    href="#">
+                    Facebook
+                  </a>
+                </li>
+                <li class="footer__list-item">
+                  <img class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="Instagram logo"
+                  >
+                  <a class="footer__social-link" 
+                    href="#">
+                    Instagram
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p class="footer__copyright">© 2023 Yuri Rokhlin</p>
+        </footer>
     </div>
   </body>
 </html>

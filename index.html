@@ -93,7 +93,9 @@
             <form class="form reservation__form">
               <fieldset class="form__fieldset">
                 <label class="form__label">
-                  <p class="form__paragraph">Name *</p>
+                  <!-- I can't remove the <br> tags because if I do, the label and
+                  the input field end up on the same line. What do I do? -->
+                  Name *<br>
                   <input class="form__input" 
                     type="text"
                     placeholder="Name Surname"
@@ -101,7 +103,7 @@
                     required>
                 </label>
                 <label class="form__label">
-                  <p class="form__paragraph">Number of guests *</p>
+                  Number of guests *<br>
                   <input class="form__input" 
                     type="number"
                     placeholder="1-8"
@@ -110,14 +112,14 @@
                     required>
                 </label>
                 <label class="form__label">
-                  <p class="form__paragraph">Date & time *</p>
+                  Date & time *<br>
                   <input class="form__input" 
                     type="datetime-local"
                     name="datetime"
                     required>
                 </label>
                 <label class="form__label">
-                  <p class="form__paragraph">Your email *</p>
+                  Your email *<br>
                   <input class="form__input" 
                     type="email"
                     name="email"

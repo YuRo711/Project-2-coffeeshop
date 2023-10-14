@@ -8,6 +8,7 @@
     border: none;
     display: flex;
     flex-direction: column;
+    padding: 0;
   }
   
   .form__label {
@@ -17,13 +18,17 @@
     font-size: 16px;
     line-height: 20px;
   }
+
+  .form__paragraph {
+    margin: 0;
+  }
   
   .form__input {
     border-radius: 4px;
     margin-top: 8px;
     margin-bottom: 32px;
-    width: 355px;
-    max-width: 385px;
+    box-sizing: border-box;
+    width: 385px;
     height: 60px;
     padding-left: 15px;
     padding-right: 15px;

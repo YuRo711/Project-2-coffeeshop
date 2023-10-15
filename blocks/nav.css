@@ -1,36 +1,33 @@
 .nav {
-    display: flex;
-  }
+  display: flex;
+}
   
 .nav__logo {
-position: relative;
-width: 105px;
-height: 39px;
-margin-left: 30px;
-margin-top: 30px;
-margin-right: auto;
+  position: relative;
+  width: 105px;
+  height: 39px;
+  margin: 30px auto 0 30px;
 }
 
 .nav__links {
-margin-top: 30px;
-margin-right: 80px;
-display: flex;
-column-gap: 20px;
-list-style: none;
-padding: 0;
+  margin: 30px 80px 0 0;
+  display: flex;
+  column-gap: 20px;
+  list-style: none;
+  padding: 0;
 }
 
 .nav__link {
-font-family: "Inter" "Arial" sans-serif; 
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-color: black;
-text-decoration: none;
-transition: 0.4s ease-in-out;
+  font-family: "Inter", "Arial", sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
 }
 
 .nav__link:hover {
-  color: #2f80ed;
+    color: #2f80ed;
 }
